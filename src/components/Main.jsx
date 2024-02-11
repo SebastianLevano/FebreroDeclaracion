@@ -11,7 +11,7 @@ export function Main () {
                 <div className='flex justify-center items-center flex-col gap-2'>
 
                     <h1 className='font-sans font-bold text-gray-400 text-2xl'> 
-                    Quieres ser mi San Valentin? </h1>
+                    ¿Quieres ser mi San Valentin? </h1>
 
                     <img src={image} className='w-72'/>
 
@@ -19,9 +19,9 @@ export function Main () {
 
                     <section className='flex gap-3'>
 
-                        <button className='bg-purple-500 w-28 text-white font-bold py-2 px-4 rounded transition-all hover:scale-110' onClick={handleButtonYes}> Si </button>
+                        <button className='bg-purple-500 w-28 text-white font-bold py-2 px-4 rounded transition-all hover:scale-110' onClick={handleButtonYes}> Si quiero</button>
 
-                        <button className='bg-pink-500 w-20 text-white font-bold py-2 px-4 rounded transition-all hover:scale-110' onClick={handleButtonNo}> No </button>
+                        <button className='bg-pink-500 w-20 text-white font-bold py-2 px-4 rounded transition-all hover:scale-110' onClick={handleButtonNo}> No quiero </button>
                     </section>
 
                 </div>
